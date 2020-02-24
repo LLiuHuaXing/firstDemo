@@ -440,7 +440,7 @@
       <workItem from="1582468717449" duration="1195000" />
       <workItem from="1582506995709" duration="6536000" />
       <workItem from="1582524836255" duration="1438000" />
-      <workItem from="1582526507511" duration="449000" />
+      <workItem from="1582526507511" duration="1003000" />
     </task>
     <task id="LOCAL-00001" summary="提交进销货管理系统">
       <created>1582512203944</created>
@@ -456,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582525661593</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="提交截图1">
+      <created>1582526982767</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582526982767</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,6 +487,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="提交进销货管理系统" />
     <MESSAGE value="提交截图" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交截图" />
+    <MESSAGE value="提交截图1" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交截图1" />
   </component>
 </project>
