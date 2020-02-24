@@ -1,6 +1,6 @@
 # firstDemo
 项目介绍
-进销货管理系统是一个面向中间商的系统，专门用于进货、销售商品、客户管理、数据统计的系统，技术：springboot+mybatisplus+layui+shiro。
+进销货管理系统是一个面向中间商的系统，专门用于进货、销售商品、客户管理、数据统计的系统，技术：springboot+mybatisplus+layui+shiro,主要模块有权限管理，进货管理、销售管理、统计分析、审批管理等。
 项目页面展示：
 登录页面：
 ![登录页面](https://github.com/LLiuHuaXing/firstDemo/blob/master/newImage/%E7%99%BB%E5%BD%95.png "logo")  
