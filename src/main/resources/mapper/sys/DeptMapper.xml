@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sxt.sys.mapper.DeptMapper">
+    <select id="getDeptMax" resultType="Integer">
+        select max(ordernum) from sys_dept
+    </select>
+
+    <update id="updateDeptAvailable">
+        update sys_dept set available=#{deptVo.available} where id=#{deptVo.id}
+    </update>
+
+    <!--根据用户名到用户表查部门id
+      根据部门id到部门表查该部门的下属部门id-->
+    <select id="showDeptIdfFromUname" resultType="java.lang.Integer">
+        select id from sys_dept where pid =#{deptId}
+    </select>
+</mapper>
