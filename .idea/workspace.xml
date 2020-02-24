@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9e4b423-9afe-4a36-b6a4-ac05d596d25d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="BpmnFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:/repos" />
+        <option name="mavenHome" value="D:/2019-2020/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\2019-2020\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V1E7cBlJ4zcrhLAPoouSF54GMm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/processes" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.splitter.proportion" value="0.20542318" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\MyDoProject\可做的\07项目\01\0520ERP - 副本\src\main\resources\templates\stat\dataTime" />
+      <recent name="H:\MyDoProject\可做的\07项目\01\0520ERP - 副本\src\main\resources\templates\stats" />
+      <recent name="H:\MyDoProject\可做的\07项目\01\0520ERP - 副本\src\main\resources\templates\stat\dataTime\region" />
+      <recent name="H:\MyDoProject\可做的\07项目\01\0520ERP - 副本\src\main\resources\static\resources\page\system\user" />
+      <recent name="H:\MyDoProject\可做的\07项目\01\0520ERP - 副本\src\main\resources\static\resources\page\system\role" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sxt.approval.service.impl" />
+      <recent name="com.sxt.approval.service" />
+      <recent name="com.sxt.approval.mapper" />
+      <recent name="com.sxt.approval.controller" />
+      <recent name="com.sxt.approval.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\MyDoProject\可做的\07项目\01\0520ERP - 副本\src\main\resources\processes" />
+      <recent name="H:\MyDoProject\可做的\07项目\01\0520ERP - 副本\src\main\resources\static\resources\page\approval" />
+      <recent name="H:\MyDoProject\可做的\07项目\01\0520ERP - 副本\src\main\resources\templates\approval" />
+      <recent name="H:\MyDoProject\可做的\07项目\01\0520ERP - 副本\src\main\resources\mapper\approval" />
+      <recent name="H:\MyDoProject\可做的\07项目\01\0520ERP - 副本\src\main\resources\templates\system\user" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="javaMethod" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="ApplicationTests.currentUserFromTaskAssignee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="0520ERP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sxt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sxt" />
+      <option name="MAIN_CLASS_NAME" value="com.sxt.ApplicationTests" />
+      <option name="METHOD_NAME" value="currentUserFromTaskAssignee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTests.prepare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="0520ERP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sxt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sxt" />
+      <option name="MAIN_CLASS_NAME" value="com.sxt.ApplicationTests" />
+      <option name="METHOD_NAME" value="prepare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTests.searchTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="0520ERP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sxt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sxt" />
+      <option name="MAIN_CLASS_NAME" value="com.sxt.ApplicationTests" />
+      <option name="METHOD_NAME" value="searchTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTests.selsctTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="0520ERP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sxt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sxt" />
+      <option name="MAIN_CLASS_NAME" value="com.sxt.ApplicationTests" />
+      <option name="METHOD_NAME" value="selsctTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTests.testStartProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="0520ERP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sxt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sxt" />
+      <option name="MAIN_CLASS_NAME" value="com.sxt.ApplicationTests" />
+      <option name="METHOD_NAME" value="testStartProcess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="0520ERP" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sxt.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_0520ERP_-_副本_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52460" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52463" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_0520ERP_-_副本" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52444" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52455" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApplicationTests.currentUserFromTaskAssignee" />
+        <item itemvalue="JUnit.ApplicationTests.selsctTask" />
+        <item itemvalue="JUnit.ApplicationTests.searchTask" />
+        <item itemvalue="JUnit.ApplicationTests.testStartProcess" />
+        <item itemvalue="JUnit.ApplicationTests.prepare" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\liuhuaxing\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9e4b423-9afe-4a36-b6a4-ac05d596d25d" name="Default Changelist" comment="" />
+      <created>1576412034618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576412034618</updated>
+      <workItem from="1576412037647" duration="350000" />
+      <workItem from="1576465493835" duration="17474000" />
+      <workItem from="1576494988077" duration="4932000" />
+      <workItem from="1576500565581" duration="2749000" />
+      <workItem from="1576508951027" duration="3028000" />
+      <workItem from="1576542869925" duration="16456000" />
+      <workItem from="1576652986900" duration="8741000" />
+      <workItem from="1576717734206" duration="22096000" />
+      <workItem from="1576917068431" duration="16239000" />
+      <workItem from="1576975320917" duration="14059000" />
+      <workItem from="1577071565651" duration="4555000" />
+      <workItem from="1577146217742" duration="13325000" />
+      <workItem from="1577179496900" duration="10393000" />
+      <workItem from="1577244378108" duration="27663000" />
+      <workItem from="1577320408884" duration="33323000" />
+      <workItem from="1577406864447" duration="27228000" />
+      <workItem from="1577528660082" duration="52605000" />
+      <workItem from="1577665354724" duration="30760000" />
+      <workItem from="1577758838963" duration="17867000" />
+      <workItem from="1577839255442" duration="13212000" />
+      <workItem from="1577925524469" duration="1819000" />
+      <workItem from="1578799048597" duration="1206000" />
+      <workItem from="1578986889239" duration="2400000" />
+      <workItem from="1578989359197" duration="1091000" />
+      <workItem from="1581832339197" duration="437000" />
+      <workItem from="1581833047245" duration="713000" />
+      <workItem from="1581837140685" duration="33000" />
+      <workItem from="1581837410638" duration="1194000" />
+      <workItem from="1581839712835" duration="13185000" />
+      <workItem from="1581911398371" duration="21558000" />
+      <workItem from="1581991548650" duration="3124000" />
+      <workItem from="1581995554474" duration="18781000" />
+      <workItem from="1582081950324" duration="3186000" />
+      <workItem from="1582090088615" duration="2315000" />
+      <workItem from="1582094295007" duration="1978000" />
+      <workItem from="1582099661412" duration="20200000" />
+      <workItem from="1582164178292" duration="28445000" />
+      <workItem from="1582249724181" duration="4629000" />
+      <workItem from="1582261001811" duration="21939000" />
+      <workItem from="1582335161165" duration="10045000" />
+      <workItem from="1582468717449" duration="1195000" />
+      <workItem from="1582506995709" duration="6536000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交进销货管理系统">
+      <created>1582512203944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582512203944</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="SHOW_DETAILS_IN_CHANGES" value="false" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交进销货管理系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交进销货管理系统" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sxt.bus.mapper.SalesMapper">
+
+    <!--根据销售商品id删除销售退货信息-->
+    <delete id="deleteSalesBackForSalesid">
+        delete from bus_salesback where salesid=#{id}
+    </delete>
+
+    <!--根据销售商品id删除销售退货信息-->
+    <select id="selectBysalesId" resultType="Integer">
+        select sum(number) from bus_salesback where salesid=#{id}
+    </select>
+</mapper>

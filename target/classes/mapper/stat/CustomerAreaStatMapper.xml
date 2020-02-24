@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sxt.stat.mapper.CustomerAreaStatMapper">
+
+    <!-- 查询客户地区的数据 -->
+    <select id="loadAllCustomerAreaStat" resultType="com.sxt.stat.domain.CustomerAreaStat">
+
+		select address as name,count(1) as value from bus_customer
+		GROUP BY address
+
+	</select>
+
+	<!-- 年度月销售量统计 -->
+	<select id="loadAllYearMonthSalesStart" resultType="Double">
+
+		select sum(number*salesprice) from bus_sales where DATE_FORMAT(salestime,"%Y%m")=concat(#{value},'01')
+		UNION all
+		select sum(number*salesprice) from bus_sales where DATE_FORMAT(salestime,"%Y%m")=concat(#{value},'02')
+		UNION all
+		select sum(number*salesprice) from bus_sales where DATE_FORMAT(salestime,"%Y%m")=concat(#{value},'03')
+		UNION all
+		select sum(number*salesprice) from bus_sales where DATE_FORMAT(salestime,"%Y%m")=concat(#{value},'04')
+		UNION all
+		select sum(number*salesprice) from bus_sales where DATE_FORMAT(salestime,"%Y%m")=concat(#{value},'05')
+		UNION all
+		select sum(number*salesprice) from bus_sales where DATE_FORMAT(salestime,"%Y%m")=concat(#{value},'06')
+		UNION all
+		select sum(number*salesprice) from bus_sales where DATE_FORMAT(salestime,"%Y%m")=concat(#{value},'07')
+		UNION all
+		select sum(number*salesprice) from bus_sales where DATE_FORMAT(salestime,"%Y%m")=concat(#{value},'08')
+		UNION all
+		select sum(number*salesprice) from bus_sales where DATE_FORMAT(salestime,"%Y%m")=concat(#{value},'09')
+		UNION all
+		select sum(number*salesprice) from bus_sales where DATE_FORMAT(salestime,"%Y%m")=concat(#{value},'10')
+		UNION all
+		select sum(number*salesprice) from bus_sales where DATE_FORMAT(salestime,"%Y%m")=concat(#{value},'11')
+		UNION all
+		select sum(number*salesprice) from bus_sales where DATE_FORMAT(salestime,"%Y%m")=concat(#{value},'12')
+   
+	</select>
+
+
+	<!-- 年度月退货量统计 -->
+	<select id="loadAllYearMonthJudgeStart" resultType="Double">
+
+		select sum(number*salesbackprice) from bus_salesback where DATE_FORMAT(salesbacktime,"%Y%m")=concat(#{value},'01')
+		UNION all
+		select sum(number*salesbackprice) from bus_salesback where DATE_FORMAT(salesbacktime,"%Y%m")=concat(#{value},'02')
+		UNION all
+		select sum(number*salesbackprice) from bus_salesback where DATE_FORMAT(salesbacktime,"%Y%m")=concat(#{value},'03')
+		UNION all
+		select sum(number*salesbackprice) from bus_salesback where DATE_FORMAT(salesbacktime,"%Y%m")=concat(#{value},'04')
+		UNION all
+		select sum(number*salesbackprice) from bus_salesback where DATE_FORMAT(salesbacktime,"%Y%m")=concat(#{value},'05')
+		UNION all
+		select sum(number*salesbackprice) from bus_salesback where DATE_FORMAT(salesbacktime,"%Y%m")=concat(#{value},'06')
+		UNION all
+		select sum(number*salesbackprice) from bus_salesback where DATE_FORMAT(salesbacktime,"%Y%m")=concat(#{value},'07')
+		UNION all
+		select sum(number*salesbackprice) from bus_salesback where DATE_FORMAT(salesbacktime,"%Y%m")=concat(#{value},'08')
+		UNION all
+		select sum(number*salesbackprice) from bus_salesback where DATE_FORMAT(salesbacktime,"%Y%m")=concat(#{value},'09')
+		UNION all
+		select sum(number*salesbackprice) from bus_salesback where DATE_FORMAT(salesbacktime,"%Y%m")=concat(#{value},'10')
+		UNION all
+		select sum(number*salesbackprice) from bus_salesback where DATE_FORMAT(salesbacktime,"%Y%m")=concat(#{value},'11')
+		UNION all
+		select sum(number*salesbackprice) from bus_salesback where DATE_FORMAT(salesbacktime,"%Y%m")=concat(#{value},'12')
+
+	</select>
+
+	<!--年度销售量统计-->
+	<select id="loadAllYearSalesStart" resultType="com.sxt.stat.domain.CustomerAreaStat">
+
+		select DATE_FORMAT(salestime,"%Y") as name,sum(number*salesprice) as value from bus_sales
+		where
+		DATE_FORMAT(salestime,"%Y")>=#{startYear}
+		and #{endYear}>=DATE_FORMAT(salestime,"%Y")
+		group by  DATE_FORMAT(salestime,"%Y");
+
+	</select>
+
+	<!--年度退货量统计-->
+	<select id="loadAllYearJudgeStart" resultType="com.sxt.stat.domain.CustomerAreaStat">
+
+		select DATE_FORMAT(salesbacktime,"%Y") as name,sum(number*salesbackprice) as value from bus_salesback
+		where
+		DATE_FORMAT(salesbacktime,"%Y")>=#{startYear}
+		and #{endYear}>=DATE_FORMAT(salesbacktime,"%Y")
+		group by  DATE_FORMAT(salesbacktime,"%Y");
+
+	</select>
+
+	<!--销售员业绩统计管理-->
+	<select id="loadAllSalesPersonSalesStart" resultType="com.sxt.stat.domain.CustomerAreaStat">
+
+		select operateperson as name,sum(number*salesprice) as value from bus_sales
+		where 1=1
+		<choose>
+			<when test="customerAreaStat.NotSign != null">
+				AND DATE_FORMAT(salestime,"%Y-%m")>=#{customerAreaStat.startCondition}
+				and #{customerAreaStat.endCondition}>=DATE_FORMAT(salestime,"%Y-%m")
+			</when>
+			<otherwise>
+				AND DATE_FORMAT(salestime,"%Y")>=#{customerAreaStat.startCondition}
+				and #{customerAreaStat.endCondition}>=DATE_FORMAT(salestime,"%Y")
+			</otherwise>
+		</choose>
+		<if test="customerAreaStat.deptId != null ">
+			and jobnumber in
+			<foreach item="item" index="index" collection="customerAreaStat.list"
+					 open="(" separator="," close=")">
+				#{item}
+			</foreach>
+		</if>
+		group by jobnumber;
+
+	</select>
+
+	<!--销售员退货量统计管理-->
+	<select id="loadAllSalesPersonJudgeStart" resultType="com.sxt.stat.domain.CustomerAreaStat">
+
+		select operateperson as name,sum(number*salesbackprice) as value from bus_salesback
+		where 1=1
+		<choose>
+			<when test="customerAreaStat.NotSign != null">
+				AND DATE_FORMAT(salesbacktime,"%Y-%m")>=#{customerAreaStat.startCondition}
+				and #{customerAreaStat.endCondition}>=DATE_FORMAT(salesbacktime,"%Y-%m")
+			</when>
+			<otherwise>
+				AND DATE_FORMAT(salesbacktime,"%Y")>=#{customerAreaStat.startCondition}
+				and #{customerAreaStat.endCondition}>=DATE_FORMAT(salesbacktime,"%Y")
+			</otherwise>
+		</choose>
+		<if test="customerAreaStat.deptId != null ">
+			and jobnumber in
+			<foreach item="item" index="index" collection="customerAreaStat.list"
+					 open="(" separator="," close=")">
+				#{item}
+			</foreach>
+		</if>
+		group by jobnumber;
+
+	</select>
+
+	<!--根据部门id到部门表查询该部门以及子部门的id-->
+	<select id="selectDeptIdForId" resultType="Integer">
+
+		select id from sys_dept where id=#{id} or pid=#{id} or pid in (select id from sys_dept where pid=#{id});
+
+	</select>
+
+	<!--根据查询的部门id到用户表查询所有的用户工号-->
+	<select id="selectUserJobnumberFordeptid" resultType="String">
+
+		select jobnumber from sys_user where deptid in
+		<foreach item="item" index="index" collection="deptList"
+				 open="(" separator="," close=")">
+			#{item}
+		</foreach>
+
+	</select>
+
+</mapper>
